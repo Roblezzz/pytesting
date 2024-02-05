@@ -19,11 +19,10 @@ print(count(phrase))
 # Increment the variable by one for each word
 # Return a string with the number of words and the original string
 def loop(w):
-    wordN = w.split()
     number = 0
-    for word in wordN:
-        number = number + 1
-        return "There are " + str(number) + " words in " + w
+    for word in w.split():
+        number += 1
+    return "There are " + str(number) + " words in " + w
     
 # Call the loop function with the phrase as argument and print the result
 print(loop(phrase))
