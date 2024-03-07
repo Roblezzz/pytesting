@@ -4,4 +4,4 @@ filter_fruits = set(fruits)
 
 filter_list = list(filter_fruits)
 
-print(filter_list)
+print(fruits, filter_fruits, filter_list)
